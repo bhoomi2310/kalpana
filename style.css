@@ -1,11 +1,10 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Basic styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #0a0a2a;
@@ -15,7 +14,6 @@ body {
     margin: 0;
 }
 
-/* Header styles */
 header {
     background-image: url('https://images.nasa.gov/system/news_items/main_images/10349_PIA23697-Figure1-web.jpg'); /* Space-themed background image */
     background-size: cover;
@@ -40,7 +38,7 @@ header p {
     font-size: 1.2em;
 }
 
-/* Navigation styles */
+
 nav ul {
     list-style-type: none;
     text-align: center;
@@ -69,7 +67,6 @@ nav ul li a:active {
     text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
 }
 
-/* Section styles */
 section {
     margin: 40px 20px;
 }
@@ -88,15 +85,14 @@ section p {
 
 ul {
     list-style-type: disc;
-    margin-left: 40px;
-}
+    margin-left: 40px;}
 
 ul li {
-    font-size: 1.1em;
+    font-ssize: 1.1em;
     margin-bottom: 10px;
 }
 
-/* Footer styles */
+
 footer {
     background-color: #1d1d5d;
     text-align: center;
